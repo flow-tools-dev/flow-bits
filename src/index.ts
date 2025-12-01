@@ -32,7 +32,8 @@ export { prop } from './locators/prop';
 export { tail } from './locators/tail';
 
 // MISC
-export { cheapClone } from './misc/cheapClone';
+export { dedupeArray } from './misc/dedupeArray';
+export { jsonClone } from './misc/jsonClone';
 export { deferToMacroQueue } from './misc/deferToMacroQueue';
 export { deferToMicroQueue } from './misc/deferToMicroQueue';
 export { doNothing } from './misc/doNothing';

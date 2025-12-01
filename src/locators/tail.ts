@@ -1,1 +1,1 @@
-export const tail = (a) => a?.[a.length - 1];
+export const tail = <T>(a: T[]): T | undefined => a?.[a.length - 1];

@@ -1,1 +1,2 @@
-export const deferToMacroQueue = (fn) => setTimeout(fn, 0);
+export const deferToMacroQueue = <T>(fn: () => T): NodeJS.Timeout =>
+  setTimeout(fn, 0);

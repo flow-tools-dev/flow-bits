@@ -1,1 +1,1 @@
-export const head = (a) => a?.[0];
+export const head = <T>(a: T[]): T | undefined => a?.[0];

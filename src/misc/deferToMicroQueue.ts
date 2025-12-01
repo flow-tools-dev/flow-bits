@@ -1,1 +1,1 @@
-export const deferToMicroQueue = async (fn) => fn();
+export const deferToMicroQueue = async <T>(fn: () => T): Promise<T> => fn();

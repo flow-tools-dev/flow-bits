@@ -1,3 +1,3 @@
-export const rethrow = (err) => {
+export const rethrow = (err: Error) => {
   throw err;
 };
