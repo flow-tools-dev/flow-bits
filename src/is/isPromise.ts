@@ -1,1 +1,1 @@
-export const isPromise = (v) => v instanceof Promise;
+export const isPromise = (v: any) => v instanceof Promise;

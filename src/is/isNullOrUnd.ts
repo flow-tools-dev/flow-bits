@@ -1,1 +1,1 @@
-export const isNullOrUnd = (v) => v === null || v === undefined;
+export const isNullOrUnd = (v: any) => v === null || v === undefined;

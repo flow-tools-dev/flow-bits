@@ -1,1 +1,1 @@
-export const isObject = (v) => v?.constructor === Object;
+export const isObject = (v: any) => v?.constructor === Object;

@@ -1,1 +1,1 @@
-export const isBool = (b) => typeof b === 'boolean';
+export const isBool = (b: any) => typeof b === 'boolean';

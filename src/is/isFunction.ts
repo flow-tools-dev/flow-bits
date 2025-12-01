@@ -1,1 +1,1 @@
-export const isFunction = (f) => typeof f === 'function';
+export const isFunction = (f: any) => typeof f === 'function';

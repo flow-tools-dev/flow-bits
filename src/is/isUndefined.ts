@@ -1,1 +1,1 @@
-export const isUndefined = (u) => u === undefined;
+export const isUndefined = (u: any) => u === undefined;
