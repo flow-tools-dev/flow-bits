@@ -1,3 +1,7 @@
+// ARRAY
+export { dedupeArray } from './array/dedupeArray';
+export { dedupeArrayBy } from './array/dedupeArrayBy';
+
 // DEBUG
 export { trace } from './debug/trace';
 export { traceWithCxt } from './debug/traceWithCxt';
@@ -32,7 +36,6 @@ export { prop } from './locators/prop';
 export { tail } from './locators/tail';
 
 // MISC
-export { dedupeArray } from './misc/dedupeArray';
 export { jsonClone } from './misc/jsonClone';
 export { deferToMacroQueue } from './misc/deferToMacroQueue';
 export { deferToMicroQueue } from './misc/deferToMicroQueue';
