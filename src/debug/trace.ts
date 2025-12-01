@@ -1,4 +1,6 @@
-export const trace = (label) => (x) => {
-  console.log(label, x);
-  return x;
-};
+export const trace =
+  <T>(label: any) =>
+  (x: T): T => {
+    console.log(label, x);
+    return x;
+  };
