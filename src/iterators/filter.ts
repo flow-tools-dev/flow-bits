@@ -1,1 +1,4 @@
-export const filter = (fn) => (a) => a?.filter(fn);
+export const filter =
+  <T>(fn: (item: T, idx: number, arr: T[]) => boolean) =>
+  (a: T[]) =>
+    a?.filter(fn);
