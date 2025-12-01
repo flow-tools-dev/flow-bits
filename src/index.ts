@@ -1,45 +1,45 @@
 // DEBUG
-export { trace } from './debug/trace.js';
-export { traceWithCxt } from './debug/traceWithCxt.js';
+export { trace } from './debug/trace';
+export { traceWithCxt } from './debug/traceWithCxt';
 
 // IS
-export { isArray } from './is/isArray.js';
-export { isBool } from './is/isBool.js';
-export { isError } from './is/isError.js';
-export { isFunction } from './is/isFunction.js';
-export { isNull } from './is/isNull.js';
-export { isNullOrUnd } from './is/isNullOrUnd.js';
-export { isNumber } from './is/isNumber.js';
-export { isObject } from './is/isObject.js';
-export { isPromise } from './is/isPromise.js';
-export { isString } from './is/isString.js';
-export { isUndefined } from './is/isUndefined.js';
+export { isArray } from './is/isArray';
+export { isBool } from './is/isBool';
+export { isError } from './is/isError';
+export { isFunction } from './is/isFunction';
+export { isNull } from './is/isNull';
+export { isNullOrUnd } from './is/isNullOrUnd';
+export { isNumber } from './is/isNumber';
+export { isObject } from './is/isObject';
+export { isPromise } from './is/isPromise';
+export { isString } from './is/isString';
+export { isUndefined } from './is/isUndefined';
 
 // ITERATORS
-export { compose } from './iterators/compose.js';
-export { composeWithCxt } from './iterators/composeWithCxt.js';
-export { filter } from './iterators/filter.js';
-export { filterTruthy } from './iterators/filterTruthy.js';
-export { flatMap } from './iterators/flatMap.js';
-export { map } from './iterators/map.js';
-export { pipe } from './iterators/pipe.js';
-export { pipeWithCxt } from './iterators/pipeWithCxt.js';
+export { compose } from './iterators/compose';
+export { composeWithCxt } from './iterators/composeWithCxt';
+export { filter } from './iterators/filter';
+export { filterTruthy } from './iterators/filterTruthy';
+export { flatMap } from './iterators/flatMap';
+export { map } from './iterators/map';
+export { pipe } from './iterators/pipe';
+export { pipeWithCxt } from './iterators/pipeWithCxt';
 
 // LOCATORS'
-export { head } from './locators/head.js';
-export { identity } from './locators/identity.js';
-export { prop } from './locators/prop.js';
-export { tail } from './locators/tail.js';
+export { head } from './locators/head';
+export { identity } from './locators/identity';
+export { prop } from './locators/prop';
+export { tail } from './locators/tail';
 
 // MISC
-export { cheapClone } from './misc/cheapClone.js';
-export { deferToMacroQueue } from './misc/deferToMacroQueue.js';
-export { deferToMicroQueue } from './misc/deferToMicroQueue.js';
-export { doNothing } from './misc/doNothing.js';
-export { rethrow } from './misc/rethrow.js';
-export { safeParse } from './misc/safeParse.js';
-export { sleep } from './misc/sleep.js';
+export { cheapClone } from './misc/cheapClone';
+export { deferToMacroQueue } from './misc/deferToMacroQueue';
+export { deferToMicroQueue } from './misc/deferToMicroQueue';
+export { doNothing } from './misc/doNothing';
+export { rethrow } from './misc/rethrow';
+export { safeParse } from './misc/safeParse';
+export { sleep } from './misc/sleep';
 
 // TO
-export { toArray } from './to/toArray.js';
-export { toString } from './to/toString.js';
+export { toArray } from './to/toArray';
+export { toString } from './to/toString';
