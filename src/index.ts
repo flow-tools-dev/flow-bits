@@ -45,5 +45,6 @@ export { safeParse } from './misc/safeParse';
 export { sleep } from './misc/sleep';
 
 // TO
-export { toArray } from './to/toArray';
+export { toKeys } from './to/toKeys';
+export { toValues } from './to/toValues';
 export { toString } from './to/toString';

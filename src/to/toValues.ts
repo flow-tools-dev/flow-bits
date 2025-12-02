@@ -1,4 +1,4 @@
-export const toArray = (collection: any): any[] => {
+export const toValues = (collection: any): any[] => {
   if (collection?.values) return [...collection.values()];
   if (collection?.[Symbol.iterator]) return [...collection];
   if (!collection) return [];
